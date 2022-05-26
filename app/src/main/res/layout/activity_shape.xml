@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ShapeActivity">
+
+    <TextView
+        style="@style/textBtnShape"
+        android:text="Cut - 4dp"
+        android:layout_marginTop="50dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:shapeAppearance="@style/shape1"
+        android:layout_gravity="center"
+        android:text="Shape 1"/>
+    <TextView
+        style="@style/textBtnShape"
+        android:text="Cut - 8dp"
+        android:layout_marginTop="50dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:shapeAppearance="@style/shape2"
+        android:layout_gravity="center"
+        android:text="Shape 2"/>
+
+    <TextView
+        style="@style/textBtnShape"
+        android:text="Cut - 0dp"
+        android:layout_marginTop="50dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:shapeAppearance="@style/shape3"
+        android:layout_gravity="center"
+        android:text="Shape 3"/>
+
+    <TextView
+        style="@style/textBtnShape"
+        android:text="Rounded - 16dp"
+        android:layout_marginTop="50dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:shapeAppearance="@style/shape4"
+        android:layout_gravity="center"
+        android:text="Shape 4"/>
+
+    <TextView
+        style="@style/textBtnShape"
+        android:text="Cut - 16dp"
+        android:layout_marginTop="50dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:shapeAppearance="@style/shape5"
+        android:layout_gravity="center"
+        android:text="Shape 5"/>
+
+</LinearLayout>

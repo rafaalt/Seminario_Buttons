@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/background"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -9,12 +10,13 @@
 
     <TextView
     style="@style/textBtnStyle"
-        android:text="Apresentação Seminario"
+        android:text="Apresentação Seminário"
+        android:textSize="30dp"
         android:layout_marginTop="30dp"
         android:layout_gravity="center"/>
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="175dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="22dp"
@@ -22,10 +24,67 @@
         android:id="@+id/btnMainAct1"/>
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="175dp"
         android:layout_gravity="center"
         android:layout_height="wrap_content"
         android:text="Estados"
         android:id="@+id/btnMainAct2"/>
+    <Button
+        android:layout_width="175dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        app:icon = "@drawable/icon_estrela"
+        android:text="EXEMPLOS"
+        android:id="@+id/btnMainAct4"/>
+
+    <TextView
+        style="@style/textBtnStyle"
+        android:text="RadioButtons"
+        android:textSize="25dp"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/btnMainAct3"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="RadioButton" />
+
+    <Button
+        android:id="@+id/btnMainAct5"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="RadioButton "
+        app:icon="@drawable/icon_mais" />
+
+    <TextView
+        style="@style/textBtnStyle"
+        android:text="Retorno do Formulário"
+        android:textSize="20dp"
+        android:visibility="invisible"
+        android:textColor="@color/textColor"
+        android:layout_marginTop="25dp"
+        android:id="@+id/txtRadioButIntro"/>
+    <TextView
+        style="@style/textBtnStyle"
+        android:text=""
+        android:layout_gravity="left"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/gray"
+        android:layout_marginTop="20dp"
+        android:id="@+id/txtRadioButResult"/>
+
+    <TextView
+        style="@style/textBtnStyle"
+        android:layout_gravity="left"
+        android:layout_marginLeft="30dp"
+        android:text=""
+        android:visibility="visible"
+        android:textColor="@color/gray"
+        android:layout_marginTop="20dp"
+        android:id="@+id/txtRadioButResult2"/>
+
 
 </LinearLayout>

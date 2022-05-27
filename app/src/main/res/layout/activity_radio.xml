@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RadioActivity">
+    <TextView
+        style="@style/textBtnStyle"
+        android:textColor="@color/purple_500"
+        android:layout_marginTop="50dp"
+        android:text="Escolaridade: "/>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:id="@+id/radioEscolaridade">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Educacao Infantil"
+            android:id="@+id/escInfantil"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fundamental Completo"
+            android:id="@+id/escFundamental"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medio Completo"
+            android:id="@+id/escMedio"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Superior Incompleto"
+            android:id="@+id/escSupInc"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Superior Completo"
+            android:id="@+id/escSuperior"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pós-Graduação"
+            android:id="@+id/escPos"/>
+    </RadioGroup>
+    <TextView
+        style="@style/textBtnStyle"
+        android:textColor="@color/purple_500"
+        android:layout_marginTop="30dp"
+        android:text="Genero: "/>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:id="@+id/radioGenero">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Masculino"
+            android:buttonTint="@color/green"
+            android:id="@+id/genMasculino"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Feminino"
+            android:buttonTint="@color/green"
+            android:id="@+id/genFeminino"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Outro"
+            android:buttonTint="@color/green"
+            android:id="@+id/genOutro"/>
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Enviar"
+        android:layout_gravity="center"
+        android:id="@+id/btnRadioEnviar"/>
+</LinearLayout>

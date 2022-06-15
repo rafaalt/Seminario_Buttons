@@ -17,14 +17,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:text="Contador: 0"
         android:id="@+id/btn1.1"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:text="Normal"
         app:strokeColor= "@color/purple_200"
         android:backgroundTint="@color/red"
@@ -37,13 +37,13 @@
         style="@style/textBtnStyle"
         android:text="Exemplo 2: Text Button"
         android:id="@+id/txtBtn2"
-        android:layout_marginTop="40dp"/>
+        android:layout_marginTop="20dp"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         style="@style/Widget.MaterialComponents.Button.TextButton"
         android:layout_gravity="center"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:text="Text button"
         app:icon = "@drawable/icon_raio"
         android:id="@+id/btnTextButton"/>
@@ -52,13 +52,13 @@
         style="@style/textBtnStyle"
         android:text="Exemplo 3: Outlined Button"
         android:id="@+id/txtBtn3"
-        android:layout_marginTop="40dp"/>
+        android:layout_marginTop="20dp"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
         android:layout_gravity="center"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:text="Contorno"
         android:id="@+id/btn3.1"/>
 
@@ -67,7 +67,7 @@
         android:layout_height="wrap_content"
         style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
         android:layout_gravity="center"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:text="Contorno"
         app:strokeColor= "@color/red"
         app:strokeWidth= "3dp"
@@ -76,7 +76,7 @@
         style="@style/textBtnStyle"
         android:text="Exemplo 4: Toggle Group"
         android:id="@+id/txtBtn4"
-        android:layout_marginTop="40dp"/>
+        android:layout_marginTop="20dp"/>
     <com.google.android.material.button.MaterialButtonToggleGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

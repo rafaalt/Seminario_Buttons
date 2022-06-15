@@ -3,6 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Usuario/Documents/AndroidStudio/Seminario_Buttons/app/src/main/res/layout/activity_button.xml" value="0.1" />
+        <entry key="..\:/Users/Usuario/Documents/AndroidStudio/Seminario_Buttons/app/src/main/res/layout/activity_button_state.xml" value="0.14722222222222223" />
+        <entry key="..\:/Users/Usuario/Documents/AndroidStudio/Seminario_Buttons/app/src/main/res/layout/activity_exemplos_radio.xml" value="0.14722222222222223" />
+        <entry key="..\:/Users/Usuario/Documents/AndroidStudio/Seminario_Buttons/app/src/main/res/layout/activity_main.xml" value="0.14722222222222223" />
+        <entry key="..\:/Users/Usuario/Documents/AndroidStudio/Seminario_Buttons/app/src/main/res/layout/activity_radio.xml" value="0.14722222222222223" />
+        <entry key="..\:/Users/Usuario/Documents/AndroidStudio/Seminario_Buttons/app/src/main/res/layout/activity_shape.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_button.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/activity_button_state.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/activity_exemplos_radio.xml" value="0.33" />

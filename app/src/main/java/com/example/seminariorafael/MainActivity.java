@@ -19,7 +19,8 @@ public class MainActivity extends AppCompatActivity {
         Button btnExemplos = findViewById(R.id.btnMainAct1);
         Button btnStates = findViewById(R.id.btnMainAct2);
         Button btnRadio = findViewById(R.id.btnMainAct3);
-        Button btnMExemplos = findViewById(R.id.btnMainAct4);
+        Button btnMExemplos = findViewById(R.id.btnMainAct44);
+        Button btnShapes = findViewById(R.id.btnMainAct4);
         Button btnRadio2 = findViewById(R.id.btnMainAct5);
 
         btnExemplos.setOnClickListener((view -> {
@@ -35,6 +36,11 @@ public class MainActivity extends AppCompatActivity {
         btnRadio.setOnClickListener((view)->{
             Intent intent = new Intent(MainActivity.this, RadioActivity.class);
             startActivityForResult(intent, RADIO_CODE);
+        });
+
+        btnShapes.setOnClickListener((view)->{
+            Intent intent = new Intent(MainActivity.this, ShapeActivity.class);
+            startActivity(intent);
         });
 
         btnMExemplos.setOnClickListener((view)->{

@@ -35,13 +35,21 @@
         android:layout_height="wrap_content"
         app:icon = "@drawable/icon_estrela"
         android:text="EXEMPLOS"
+        android:id="@+id/btnMainAct44"/>
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        app:icon = "@drawable/icon_estrela"
+        android:text="SHAPES"
         android:id="@+id/btnMainAct4"/>
 
     <TextView
         style="@style/textBtnStyle"
         android:text="RadioButtons"
         android:textSize="25dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="25dp"
         android:layout_gravity="center"/>
     <Button
         android:id="@+id/btnMainAct3"
